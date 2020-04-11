@@ -1,0 +1,13 @@
+public class Googol {
+	public static String googol(String num) {
+		for(int i=0;i<100;i++) {
+			num=num+0;
+			System.out.println(num);
+		}
+		return num;
+	}
+
+	public static void main(String[] args) {
+		googol("1");
+	}
+}
